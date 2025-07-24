@@ -1,0 +1,27 @@
+# Ignore specific files
+<<<<<<< HEAD
+StockGorithm/Model_1/lstm_model_HDFCBANK.keras
+StockGorithm/Model_2/lstm_model_SBIN.keras
+StockGorithm/Model_3/lstm_model_INFY.keras
+StockGorithm/Model_4/model4_get_data.pyac
+StockGorithm/Model_4/lstm_model_TATAMOTORS.keras
+StockGorithm/tcs old models/tft1_model.keras
+=======
+StockGorithm/Backend/Model_1/lstm_model_HDFCBANK.keras
+StockGorithm/Backend/Model_2/lstm_model_SBIN.keras
+StockGorithm/Backend/Model_3/lstm_model_INFY.keras
+StockGorithm/Backend/Model_4/model4_get_data.pyac
+StockGorithm/Backend/Model_4/lstm_model_TATAMOTORS.keras
+StockGorithm/Backend/tcs old models/tft1_model.keras
+>>>>>>> 77673dc (Initial push of StockGorithm Personal Finance Manager project)
+
+# Recommended general ignores
+__pycache__/
+*.py[cod]
+*.log
+*.bak
+*.tmp
+.env
+venv/
+.ipynb_checkpoints/
+.DS_Store
