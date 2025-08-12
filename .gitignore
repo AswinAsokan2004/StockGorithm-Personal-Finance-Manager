@@ -1,27 +1,77 @@
-# Ignore specific files
-<<<<<<< HEAD
-StockGorithm/Model_1/lstm_model_HDFCBANK.keras
-StockGorithm/Model_2/lstm_model_SBIN.keras
-StockGorithm/Model_3/lstm_model_INFY.keras
-StockGorithm/Model_4/model4_get_data.pyac
-StockGorithm/Model_4/lstm_model_TATAMOTORS.keras
-StockGorithm/tcs old models/tft1_model.keras
-=======
+# =========================
+# Logs
+# =========================
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Node Modules (Frontend/Backend)
+# =========================
+node_modules/
+
+# =========================
+# Build Output
+# =========================
+dist/
+dist-ssr/
+
+# =========================
+# Local Environment Files
+# =========================
+.env
+*.local
+
+# =========================
+# SQLite Databases
+# =========================
+*.sqlite
+
+# =========================
+# OS-generated Files
+# =========================
+.DS_Store
+
+# =========================
+# IDE / Editor Config
+# =========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =========================
+# Python Cache / Artifacts
+# =========================
+__pycache__/
+*.py[cod]
+*.bak
+*.tmp
+.ipynb_checkpoints/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+
+# =========================
+# Coverage Reports
+# =========================
+coverage/
+
+# =========================
+# Model Files to Ignore
+# =========================
 StockGorithm/Backend/Model_1/lstm_model_HDFCBANK.keras
 StockGorithm/Backend/Model_2/lstm_model_SBIN.keras
 StockGorithm/Backend/Model_3/lstm_model_INFY.keras
 StockGorithm/Backend/Model_4/model4_get_data.pyac
 StockGorithm/Backend/Model_4/lstm_model_TATAMOTORS.keras
 StockGorithm/Backend/tcs old models/tft1_model.keras
->>>>>>> 77673dc (Initial push of StockGorithm Personal Finance Manager project)
-
-# Recommended general ignores
-__pycache__/
-*.py[cod]
-*.log
-*.bak
-*.tmp
-.env
-venv/
-.ipynb_checkpoints/
-.DS_Store
