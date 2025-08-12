@@ -65,7 +65,7 @@ Stockgorithm/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/Stockgorithm.git
+git clone https://github.com/AswinAsokan2004/StockGorithm-Personal-Finance-Manager
 cd Stockgorithm/Backend
 
 # Create a virtual environment
